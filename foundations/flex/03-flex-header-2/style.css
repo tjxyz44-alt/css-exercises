@@ -46,3 +46,33 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+.header, .left-links, .right-links, .links {
+  display: flex;
+}
+
+.header {
+  justify-content: end;
+  padding: 10px;
+  margin: 5px;
+}
+
+.left-links {
+  margin-right: auto;
+  gap: 15px;
+  align-items: center;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  align-items: center;
+  
+}
+
+.right-links {
+  gap: 15px;
+  align-items: center;
+}
